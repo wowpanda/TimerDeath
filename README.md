@@ -2,7 +2,8 @@
 
 ### Contact Me ###
 FiveM: alexmc03                                   
-Discord: D.Miller#0519
+Discord: D.Miller#0519                                               
+GitHub: DrakeMiller                                    
 
 ### About ###
 This RPDeath / Revive script only forces the player to wait a certin amount of time before they can respawn. (this make them value there life)
