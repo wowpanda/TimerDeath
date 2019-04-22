@@ -5,7 +5,7 @@ RegisterCommand(config.commands.revive, function(source, args, raw)
         local player_id = tonumber(args[1])
 
         if player_id == nil or player_id == 0 or GetPlayerName(player_id) == nil then
-            TriggerClientEvent('chatMessage', source, 'Alex\'s Medical Services', {
+            TriggerClientEvent('chatMessage', source, 'Medical Services', {
                 200,
                 0,
                 0
@@ -14,7 +14,7 @@ RegisterCommand(config.commands.revive, function(source, args, raw)
         end
 
         if to_rev == player_id then
-            TriggerClientEvent('chatMessage', source, 'Alex\' Medical Services', {
+            TriggerClientEvent('chatMessage', source, 'Medical Services', {
                 200,
                 0,
                 0
@@ -54,7 +54,7 @@ RegisterCommand(config.commands.revive, function(source, args, raw)
         end
     end
 
-    TriggerClientEvent('chatMessage', source, 'Alex\s Medical Services', {
+    TriggerClientEvent('chatMessage', source, 'Medical Services', {
         200,
         0,
         0
