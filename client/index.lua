@@ -29,7 +29,7 @@ function respawn(location)
     StopScreenEffect('DeathFailOut')
     DoScreenFadeIn(800)
 
-    TriggerEvent('chatMessage', 'Alex\'s Medical Services', {
+    TriggerEvent('chatMessage', 'Medical Services', {
         200,
         0,
         0
@@ -115,7 +115,7 @@ RegisterNetEvent('alexs-rpdeath:revive')
 AddEventHandler('alexs-rpdeath:revive', function(by)
     revive()
     if by ~= nil then
-        TriggerEvent('chatMessage', 'Alex\'s Medical Services', {
+        TriggerEvent('chatMessage', 'Medical Services', {
             200,
             0,
             0
